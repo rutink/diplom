@@ -8,18 +8,14 @@ const Contact = () => {
                     <div className="col-xs-12 col-md-12 col-sm-12">
                         <div className=" container TitleSection">
                             <header className="page-head">
-                                <h1>Contact <small> // Us</small></h1>
+                                <h1>Контакты</h1>
                             </header>
                         </div>
                         <div className="row">
                             <div className="col-xs-12 col-md-7 col-sm-12">
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself
-                                    transformed in his bed into a horrible vermin.
-
-                                    He lay on his armour-like back, and if he lifted his head a little he could see his
-                                    brown belly, slightly domed and divided by arches into stiff sections</p>
-                                <p>Please be patient while waiting for response. (24/7 Support!)
-                                    <strong> Phone General Inquiries: 1-234-567-8910-1234</strong></p>
+                                <p>Тут вы можете со мной связаться</p>
+                                <p>а что бы и нет?
+                                    <strong> номер такой-то: 1-234-567-8910-1234</strong></p>
                                 <div className="contact_wrap">
                                     <h3>Contact Form</h3>
                                     <form method="post" action="submit_now.php" id="passion_form">

@@ -15,7 +15,6 @@ const Footer = () => {
                             <li><a href="#"><i className="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
                             <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-                            <li className="go_top"><a href="#top"><i className="fa fa-chevron-circle-up"></i></a></li>
                         </ul>
                     </div>
                 </div>
