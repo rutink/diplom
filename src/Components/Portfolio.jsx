@@ -12,7 +12,7 @@ const Portfolio = () => {
                                 <h1>Мои Работы</h1>
                             </header>
                         </div>
-                        <p>Тут будут работы, а именно ссылки на паблик</p>
+                        <p>Здесь вы можете ознакомится с моими кейсами. Я только начала свою деятельность, количество работ будет добавляться</p>
                     </div>
                 </div>
             </div>
@@ -28,23 +28,23 @@ const Portfolio = () => {
                         </section>
                         <div id="filter_container" className="clearfix portfolioContainer">
                             <div className="element instagram" data-category="Logo_design">
-                                <div className="hexagon"><NavLink to="#"> <span className="mask"></span> <img src="img/2.jpg" alt="filter"/> </NavLink>
+                                <div className="hexagon"><a href="https://www.instagram.com/piercing_by_natoire/?igshid=1pug7org9uysd" target="_blank"> <span className="mask"></span> <img src="img/pirsing.jpg" alt="filter"/> </a>
                                     <div className="portfolio-title">
-                                        <h4>Пирсинг<span>прокалыватель</span></h4>
+                                        <h4>pigment lab<span>мастер по пирсингу</span></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="element instagram" data-category="branding">
-                                <div className="hexagon"><a href="#"> <span className="mask"></span> <img src="img/1.jpg" alt="filter"/> </a>
+                                <div className="hexagon"><a href="https://www.instagram.com/lilibrovki/" target="_blank"> <span className="mask"></span> <img src="img/lili.jpg" alt="filter"/> </a>
                                     <div className="portfolio-title">
-                                        <h4>Лили Бровична<span>начесыватель</span></h4>
+                                        <h4>Лили Недовесова<span>Мастер по бровям</span></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="element vk" data-category="Logo_design">
-                                <div className="hexagon"><NavLink to="#"> <span className="mask"></span> <img src="img/3.jpg" alt="filter"/> </NavLink>
+                                <div className="hexagon"><a href="https://vk.com/tchabrets" target="_blank"> <span className="mask"></span> <img src="img/teaChabrets.jpg" alt="filter"/> </a>
                                     <div className="portfolio-title">
-                                        <h4>Чаигонево<span>кипяточник</span></h4>
+                                        <h4>The Chabrets<span>лучший чай</span></h4>
                                     </div>
                                 </div>
                             </div>

@@ -12,44 +12,35 @@ const About = () => {
                                 <h1>Обо мне</h1>
                             </header>
                         </div>
-                        <p>Наконец что-то обо мне тут текст</p>
                         <div className="row">
-                            <div className="col-sm-4">
+                            <div className="col-sm-4    ">
                                 <div className="about_wrap_one">
-                                    <div className="hexagon"><a href="#"> <span className="mask"></span> <img
-                                        src="img/1.jpg" alt="filter"/> </a>
+                                    <div className="hexagon"><a href="https://vk.com/id47848" target="_blank"> <span className="mask"></span> <img
+                                        src="img/about.jpg"/> </a>
                                         <div className="portfolio-title">
-                                            <h4>Наталия<span>топ-SMM</span></h4>
+                                            <h4>Наталия<span>Богиня SMM</span></h4>
                                         </div>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                        sagittis sit amet congue at, aliquam eu libero.</p>
+                                    <p>Я-Наталия Петухова. С августа 2020 года я решила посвятить себя профессии SMM, а именно маркетинг и продвижение в интернете.</p>
                                     <ul className="about_social">
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
+                                        <li><a href="https://www.instagram.com/natyplusvera/" target="_blank"><i className="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://vk.com/id47848" target="_blank"><i className="fab fa-vk"></i></a></li>
+                                        <li><a href=" https://wa.me/79266253611" target="_blank"><i className="fab fa-whatsapp"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-sm">
                                 <div className="jumbotron">
-                                    <h3>Address Info</h3>
+                                    <h3>Адрес</h3>
                                     <address>
-                                        <strong>Company, Inc.</strong>
-                                        795 Folsom Ave, Suite 600 San Francisco, CA 94107
-                                        <abbr title="Phone">Tel:</abbr> (123) 456-7890
-                                        <abbr title="Fax">Fax:</abbr> (123) 456-7890
+                                        Россия, г. Люберцы, Комсомольский пр-т, 14/2
                                     </address>
                                     <address>
-                                        <strong>Email</strong> <a href="mailto:#">first.last@example.com</a>
-                                        <strong>website</strong> <a href="#page13">www.company.com</a>
+                                        <strong>Email</strong> <a href="mailto:natyplusvera@gmail.com">natyplusvera@gmail.com</a>
                                     </address>
                                 </div>
                                 <div className="col-sm">
-                                    <p>Тут вы можете со мной связаться</p>
-                                    <p>а что бы и нет?
-                                        <strong> номер такой-то: 1-234-567-8910-1234</strong></p>
+                                    <p>Вы можете со мной связаться позвонив по телефону<strong> номер: +7(926)625-36-11</strong></p>
                                 </div>
                             </div>
                         </div>

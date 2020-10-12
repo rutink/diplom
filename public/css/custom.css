@@ -140,7 +140,7 @@ right: 0;
 /* ==========================================================
                 services
 ============================================================= */
-.services, .about { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 50px 0; }
+.services, .about { background: #F2F2F2; border-bottom: 5px solid #FCFCFC; color: #666D89; padding: 50px 0}
 .ser_wrap_3 { border-bottom: 1px solid #EDEDED; margin: 0; overflow: hidden; padding: 20px 0; }
 .ser_wrap_3 ul { overflow: hidden; padding: 0; }
 .ser_wrap_3 ul li { margin-bottom: 0; overflow: hidden; }
