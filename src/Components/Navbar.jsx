@@ -14,10 +14,10 @@ const Navbar = () => {
                     <a className="navbar-brand logo" href="index.html">Project name</a></div>
                 <div className="navbar-collapse collapse ">
                     <ul className="nav navbar-nav navbar-right">
-                        <li><NavLink exact to="/">Главная</NavLink></li>
-                        <li><NavLink exact to="/portfolio ">Мои работы</NavLink></li>
-                        <li><NavLink exact to="/about">Обо мне</NavLink></li>
-                        <li><NavLink exact to="/contact">Контакты</NavLink></li>
+                        <li><NavLink  to="/">Главная</NavLink></li>
+                        <li><NavLink  to="/portfolio ">Мои работы</NavLink></li>
+                        <li><NavLink  to="/about">Обо мне</NavLink></li>
+                        <li><NavLink  to="/contact">Контакты</NavLink></li>
                     </ul>
                 </div>
             </div>

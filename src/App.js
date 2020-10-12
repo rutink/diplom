@@ -14,11 +14,26 @@ function App() {
       <div>
           <BrowserRouter>
             <Navbar/>
-
-              <Header/>
-              <Portfolio/>
-              <About/>
-              <Contact/>
+                <Route exact path="/" render={()=>{
+                    return <div>
+                        <Header/>
+                    </div>
+                }}/>
+                <Route path="/portfolio" render={()=>{
+                    return <div>
+                        <Portfolio/>
+                    </div>
+                }}/>
+                <Route path="/about" render={()=>{
+                  return <div>
+                      <About/>
+                  </div>
+                }}/>
+              <Route path="/contact" render={()=>{
+                  return <div>
+                      <Contact/>
+                  </div>
+              }}/>
             <Footer/>
           </BrowserRouter>
       </div>
