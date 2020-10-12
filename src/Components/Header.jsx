@@ -2,17 +2,32 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src="img/slider/1.jpg" className="d-block w-100" alt="..."/>
-                </div>
-                <div className="carousel-item">
-                    <img src="img/slider/2.jpg" className="d-block w-100" alt="..."/>
-                </div>
-                <div className="carousel-item">
-                    <img src="img/slider/3.jpg" className="d-block w-100" alt="..."/>
-                </div>
+        <div id="top" className="header">
+            <div className="flexslider">
+                <ul className="slides">
+                    <li><img src="img/slider/1.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula.</p>
+                    </li>
+                    <li><img src="img/slider/2.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet.</p>
+                    </li>
+                    <li><img src="img/slider/3.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    </li>
+                    <li><img src="img/slider/4.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. </p>
+                    </li>
+                    <li><img src="img/slider/5.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. </p>
+                    </li>
+                    <li><img src="img/slider/6.jpg" alt="slider"/>
+                        <p className="flex-caption">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                            commodo ligula eget dolor. </p>
+                    </li>
+                </ul>
             </div>
         </div>
     )

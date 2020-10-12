@@ -338,7 +338,7 @@ color: #EB5055;
 /* ==========================================================
                 Footer
 ============================================================= */
-footer { background-color: #303441; border-bottom: 5px solid #4A4F5E; color: #EB5055; padding: 25px 0 10px }
+footer { background-color: #303441; border-bottom: 5px solid #4A4F5E; color: #EB5055; padding: 25px 0 10px;width: 100%; position: fixed; bottom: 0 }
 footer a { color: #EB5055 }
 .footer_social > li { border: 1px solid #EB5055; border-radius: 50% 50% 50% 50%; float: left; height: 25px; line-height: 25px; margin-right: 5px; text-align: center; width: 25px; }
 .footer_social > li:hover { background-color: #EB5055 }
